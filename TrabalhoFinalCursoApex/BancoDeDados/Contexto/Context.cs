@@ -15,7 +15,7 @@ namespace TrabalhoFinalCursoApex.BancoDeDados.Contexto
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=DESKTOP-42MV8LH\\SQLEXPRESS;Initial catalog=FINANCIALBANK;Trusted_connection=true;trustservercertificate=true");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-42MV8LH\\SQLEXPRESS;Initial catalog=FINANCE_BANK;Trusted_connection=true;trustservercertificate=true");
             }
         }
 
